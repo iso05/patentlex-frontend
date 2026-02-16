@@ -1,0 +1,164 @@
+{
+  "heroTitle": "Law Firm in the field of Intellectual Property",
+  "heroText": "We provide legal services in the field of intellectual property to individuals and legal entities. We offer reliable cooperation in contract drafting, patenting, legal protection and court representation.",
+  "freeConsultation": "Get Consultation",
+  "sendDocuments": "Send Documents",
+  "menu": {
+    "home": "Home",
+    "services": "Our services",
+    "team": "Our Team",
+    "portfolio": "Portfolio",
+    "reviews": "Client Reviewers",
+    "contact": "Contact"
+  },
+  "location": "100147, Republic of Uzbekistan, Tashkent city, A. Navoi street, 30 ",
+  "services": {
+    "title": "Our Services",
+    "forIndividuals": "for individuals",
+    "forCompanies": "for legal entities",
+
+    "trademark": {
+      "title": "Trademarks",
+      "short": "Registration and protection of trademarks.",
+      "full": "Comprehensive legal services for trademark registration, rights protection, dispute resolution and term extension."
+    },
+
+    "patent": {
+      "title": "Patents",
+      "short": "Patenting of inventions, utility models and industrial designs.",
+      "full": "Preparation of patent application documents, filing applications and legal protection of patent rights."
+    },
+
+    "copyright": {
+      "title": "Copyright",
+      "short": "Registration and legal protection of copyright objects.",
+      "full": "Compensation recovery, contract drafting and court representation."
+    },
+
+    "domains": {
+      "title": " Anti-Counterfeiting and Unfair Competition",
+      "short": "Detection, elimination of counterfeit goods and compensation recovery ",
+      "full": "Fighting against the production of goods similar to yours or identical to the point of confusion."
+    },
+
+    "rights": {
+      "title": "IP Protection in Arbitration, Mediation and Courts",
+      "short": "Contract development, examination and court representation",
+      "full": "Preparation of intellectual property agreements, court representation, mediation services."
+    },
+
+    "consulting": {
+      "title": "Registration of IP Objects in Customs Register",
+      "short": " Prevention of counterfeit and fake goods import from abroad ",
+      "full": " Implementation of measures in cooperation with customs to prevent the import of counterfeit goods from abroad."
+    }
+  },
+  "common": {
+    "showMore": " Show More ",
+    "hide": " Close "
+  },
+  "team": {
+    "title": " Our Team ",
+    "members": {
+      "yomi": {
+        "name": " Dr. Mukhammad Ali Turdialiev ",
+        "role": "Doctor of Law, Managing Partner, Patent Attorney, Advocate, Mediator",
+        "info": "Leading specialist in international private law, patent attorney of international and national level. Patent attorney for 1000+ brands (European Union, CIS, USA and African countries) in Uzbekistan. Lawyer with over 5 years of legal experience."
+      },
+      "timothee": {
+        "name": "Jurayev Muhammadiso Yahyo ugli",
+        "role": "Software, Assistant Lawyer for IT matters",
+        "info": "Specialist in modern software and digital solutions development. Has extensive experience in creating legal platforms, web applications and business process automation."
+      }
+    },
+    "features": {
+      "fast": {
+        "title": "Fast Execution",
+        "text": "We deliver tasks quickly with no delays."
+      },
+      "trusted": {
+        "title": "Trusted Team",
+        "text": "A reliable team with proven experience."
+      },
+      "secure": {
+        "title": "Secure & Reliable",
+        "text": "Your data is always safe with us."
+      },
+      "performance": {
+        "title": "High Performance",
+        "text": "Focused on quality and smart execution."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Our Works",
+    "subtitle": "Completed projects crafted with precision and modern technology.",
+    "date": "{{date}}",
+    "items": {
+      "digitalBridge": {
+        "title": "Legalmax at the Digital Bridge 2025 Innovation Center"
+      },
+      "roundTable": {
+        "title": "International Round Table on Brand Strengthening"
+      },
+      "altPatent": { "title": "ALT officially became a patented invention" },
+      "findSalt": { "title": "Find Salt — brand registration" },
+      "training": { "title": "Legalmax corporate training" },
+      "conference": { "title": "Legalmax scientific-practical conference" }
+    },
+    "stats": {
+      "projects": "Completed Projects",
+      "experience": "Years of Experience",
+      "clients": "Clients Worldwide"
+    }
+  },
+  "common1": {
+    "showMore": "Show more",
+    "hide": "Hide"
+  },
+  "reviews": {
+    "title": "Client Reviews",
+    "subtitle": "What our partners and clients say about us.",
+    "items": {
+      "review1": {
+        "text": "The team demonstrated high professionalism. The project was delivered quickly and with great quality.",
+        "name": "Maria Ivanova",
+        "role": "CEO — LUXE Brand"
+      },
+      "review2": {
+        "text": "We have been working together for a year. Outstanding attention to detail and excellent customer service.",
+        "name": "Alexey Trofimov",
+        "role": "Entrepreneur"
+      },
+      "review3": {
+        "text": "They took full ownership of the process. We save dozens of hours every month.",
+        "name": "Olga Sokolova",
+        "role": "COO — Nova Group"
+      }
+    }
+  },
+  "contact": {
+    "title": "We Can Help You",
+    "city": "Tashkent, Uzbekistan",
+    "workdays": "Mon – Fri: 9:00 – 18:00",
+    "weekend": "Sat – Sun: closed",
+    "formTitle": "Free Legal Consultation",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Message sent successfully ✓",
+    "error": "Error while sending",
+    "policy": "By clicking send, you agree to the processing of your personal data."
+  },
+  "footer": {
+    "brand": "Legal Time",
+    "description": "We provide professional legal services for individuals and businesses.",
+    "rights": "All rights reserved",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "location": "Tashkent, Uzbekistan",
+    "bottom": "Professional legal services — trust and quality"
+  }
+}

@@ -1,0 +1,12 @@
+.clipPath{
+  clip-path: polygon(0% 0%, 100% 0, 100% 63%, 50% 90%, 0 63%);
+}
+.bgGradient{
+background: 
+  /* Top white glow layer */
+  linear-gradient(90.46deg, #232321 20.69%, rgba(255, 255, 255, 0) 50%),
+
+  /* Bottom dark layer - left to right, slightly lighter */
+  linear-gradient(90deg, #35342F, #12110f);
+
+}

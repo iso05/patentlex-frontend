@@ -1,0 +1,166 @@
+{
+  "heroTitle": "Intellektual mulk sohasiga ixtisoslashgan yuridik kompaniya",
+  "heroText": "Biz jismoniy va yuridik shaxslarga Intellektual mulk huquqiga oid yuridik xizmatlar ko‘rsatamiz. Shartnomalar tuzish, patentlash, huquqiy muhofaza qilsih va sud vakilligi bo‘yicha ishonchli hamkorlik taklif qilamiz",
+  "freeConsultation": "Konsultatsiya olish",
+  "sendDocuments": "Hujjatlarni yuborish",
+  "menu": {
+    "home": "Bosh sahifa",
+    "services": "Bizning xizmatlar",
+    "team": "Bizning jamoa",
+    "portfolio": "Portfolio",
+    "reviews": "Mijozlar fikri",
+    "contact": "Aloqa"
+  },
+  "location": "O‘zbekiston Respublikasi, Toshkent shahar, A. Navoiy ko‘chasi, 30",
+  "services": {
+    "title": "Bizning xizmatlar",
+    "forIndividuals": "jismoniy shaxslarga",
+    "forCompanies": "yuridik shaxslarga",
+
+    "trademark": {
+      "title": "Tovar belgilari",
+      "short": "Tovar belgilarini ro‘yxatdan o‘tkazish va himoya qilish.",
+      "full": "Tovar belgilarini ro‘yxatdan o‘tkazish, huquqlarni himoya qilish, nizolarni hal etish va amal qilish muddatini uzaytirish bo‘yicha to‘liq yuridik xizmatlar."
+    },
+
+    "patent": {
+      "title": "Patentlar",
+      "short": "Ixtirolar, foydali model va sanoat namunalarni patentlash.",
+      "full": "Patent olish uchun hujjatlarni tayyorlash, arizalarni topshirish va patent huquqlarini yuridik himoya qilish."
+    },
+
+    "copyright": {
+      "title": "Mualliflik huquqi",
+      "short": "Mualliflik huquqi obyektlarini ro‘yhatdan o‘tkazish va huquqiy himoya qilish.",
+      "full": "Mualliflik huquqlarini ro‘yxatdan o‘tkazish, shartnomalar tuzish va sudlarda vakillik qilish."
+    },
+
+    "domains": {
+      "title": "Kontrafakt hamda nohalol raqobatga qarashi kurashish",
+      "short": "Soxta va kontrafakt tovarlarni aniqlash, yo‘q qilish va kompensatsiya undirish",
+      "full": "Siznikiga o‘xshash yoki adashtirib yuborish darajasidagi bir xil tovarlarni ishlab chiqarishga qarshi kurashish."
+    },
+
+    "rights": {
+      "title": "Sudlarda himoya qilish",
+      "short": "Shartnomalarni ishlab chiqish, ekspertizadan o‘tkazish hamda sudlarda vakillik qilish.",
+      "full": "Intellektual mulkka oid ishlarda shartnomalar tayyorlash, sudlarda vakillik, mediatorlik vazifasini bajarish xizmatlari mavjud."
+    },
+
+    "consulting": {
+      "title": "Intellektual mulk obyektlarini bojxona reestriga kiritish",
+      "short": "Soxta va kontrafakt tovarlarni xorijdan kirib kelishini oldini olish",
+      "full": "Soxta va kontrafakt tovarlarni xorijdan kirib kelishini oldini olish bo‘yicha bojxona bilan hamkorlikda choralar ko‘rish."
+    }
+  },
+  "common": {
+    "showMore": "Ko‘proq ko‘rsatish",
+    "hide": "Yopish"
+  },
+  "team": {
+    "title": "Bizning jamoa",
+    "members": {
+      "yomi": {
+        "name": "Turdialiyev Muhammad Ali",
+        "role": "Boshqaruvchi sherik, Patent vakili, Advokat, Mediator, PhD",
+        "info": ".Xalqaro xususiy huquq sohasida yetakchi mutaxxasis, Xalqaro va milliy darajada patent vakili. 1000+ (Evropa Ittifoqi, MDH, AQSH va Afrika davlatlari) brendlarning O‘zbekistondagi patent vakili. 5+ yillik yuridik tajribaga ega huquqshunos."
+      },
+      "timothee": {
+        "name": "Jo‘rayev Muhammadiso Yahyo o‘g‘li",
+        "role": "Dasturiy ta’minot, Assistant",
+        "info": "Zamonaviy dasturiy ta’minot va raqamli yechimlar ishlab chiqish bo‘yicha mutaxassis. Yuridik platformalar, veb-ilovalar va biznes jarayonlarini avtomatlashtirishda katta tajribaga ega."
+      }
+    },
+    "features": {
+      "fast": {
+        "title": "Tezkor bajarish",
+        "text": "Vazifalarni tez va kechikishsiz bajaramiz."
+      },
+      "trusted": {
+        "title": "Ishonchli jamoa",
+        "text": "Tajribali va ishonchli mutaxassislar."
+      },
+      "secure": {
+        "title": "Xavfsiz va ishonchli",
+        "text": "Ma’lumotlaringiz doimo himoyada."
+      },
+      "performance": {
+        "title": "Yuqori samaradorlik",
+        "text": "Natija va sifatga yo‘naltirilgan ish."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Bizning ishlar",
+    "subtitle": "Aniqlik va zamonaviy texnologiyalar asosida bajarilgan loyihalar.",
+    "date": "{{date}}",
+    "items": {
+      "digitalBridge": {
+        "title": "Legalmax Digital Bridge 2025 innovatsiya markazida"
+      },
+      "roundTable": {
+        "title": "Brendlarni himoya qilsih bo‘yicha xalqaro davra suhbati"
+      },
+      "altPatent": {
+        "title": "ALT rasmiy ravishda patentlangan ixtiroga aylandi"
+      },
+      "findSalt": { "title": "Find Salt — brendlarni ro‘yxatdan o‘tkazish" },
+      "training": { "title": "Legalmax korporativ treningi" },
+      "conference": { "title": "Legalmax ilmiy-amaliy konferensiyasi" }
+    },
+    "stats": {
+      "projects": "Yakunlangan loyihalar",
+      "experience": "Yillik tajriba",
+      "clients": "Xalqaro mijozlar"
+    }
+  },
+  "common1": {
+    "showMore": "Ko‘proq ko‘rsatish",
+    "hide": "Yopish"
+  },
+  "reviews": {
+    "title": "Mijozlar fikrlari",
+    "subtitle": "Hamkorlarimiz va mijozlarimiz biz haqimizda nima deydi.",
+    "items": {
+      "review1": {
+        "text": "Jamoa yuqori professionalizmni namoyish etdi. Loyiha tez va sifatli amalga oshirildi.",
+        "name": "Mariya Ivanova",
+        "role": "CEO — LUXE Brand"
+      },
+      "review2": {
+        "text": "Bir yildan beri hamkorlik qilamiz. Tafsilotlarga ajoyib e’tibor va mukammal servis.",
+        "name": "Aleksey Trofimov",
+        "role": "Tadbirkor"
+      },
+      "review3": {
+        "text": "Ular butun jarayonni o‘z zimmalariga olishdi. Har oy o‘nlab soatlarni tejayapmiz.",
+        "name": "Olga Sokolova",
+        "role": "COO — Nova Group"
+      }
+    }
+  },
+   "contact": {
+    "title": "Biz sizga yordam bera olamiz",
+    "city": "Toshkent, O‘zbekiston",
+    "workdays": "Du – Ju: 9:00 – 18:00",
+    "weekend": "Sh – Ya: dam olish",
+    "formTitle": "Bepul yuridik maslahat",
+    "name": "Ism",
+    "email": "Email",
+    "message": "Xabar",
+    "send": "Yuborish",
+    "sending": "Yuborilmoqda...",
+    "success": "Xabar muvaffaqiyatli yuborildi ✓",
+    "error": "Yuborishda xatolik yuz berdi",
+    "policy": "Yuborish tugmasini bosish orqali shaxsiy ma’lumotlaringizni qayta ishlashga rozilik bildirasiz."
+  },
+   "footer": {
+    "brand": "Legal Time",
+    "description": "Biz jismoniy va yuridik shaxslarga professional huquqiy xizmatlar ko‘rsatamiz.",
+    "rights": "Barcha huquqlar himoyalangan",
+    "navigation": "Navigatsiya",
+    "contact": "Bog‘lanish",
+    "location": "Toshkent, O‘zbekiston",
+    "bottom": "Professional yuridik xizmatlar — ishonch va sifat"
+  }
+}
