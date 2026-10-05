@@ -1,228 +1,200 @@
-import { useEffect, useState } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
-import logo from "../../assets/images/logo.jpg";
-import { MdOutlineLanguage, MdOutlineMailOutline } from "react-icons/md";
-import { SiGooglemaps } from "react-icons/si";
-import { FaPhoneFlip } from "react-icons/fa6";
-import { useTranslation } from "react-i18next";
+'use client'
+
+import { useEffect, useState } from 'react'
+import { FiMenu, FiX } from 'react-icons/fi'
+import logo from '../../assets/images/logo.jpg'
+import { MdOutlineLanguage } from 'react-icons/md'
+import { useTranslation } from 'react-i18next'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+import '../../i18n'
 
 function Navbar() {
-  const [open, setOpen] = useState(false); // mobile menu
-  const [openLanguage, setOpenLanguage] = useState(false);
-  const { i18n } = useTranslation();
+  const [open, setOpen] = useState(false)
+  const [openLang, setOpenLang] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+  const { i18n, t } = useTranslation()
+  const pathname = usePathname()
 
   const languages = [
-    { code: "uz", label: "Uzbek" },
-    { code: "ru", label: "Русский" },
-    { code: "en", label: "English" },
-  ];
+    { code: 'uz', label: 'UZ' },
+    { code: 'ru', label: 'RU' },
+    { code: 'en', label: 'EN' },
+  ]
+  const currentLang = languages.find(l => l.code === i18n.language) || languages[0]
 
-  const [currentLang, setCurrentLang] = useState(languages[0]);
-
-  // ✅ SCROLL → CLOSE MENU & LANGUAGE (MOBILE FIX)
   useEffect(() => {
-    const closeAll = () => {
-      setOpen(false);
-      setOpenLanguage(false);
-    };
-
-    window.addEventListener("scroll", closeAll);
-    return () => window.removeEventListener("scroll", closeAll);
-  }, []);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 30)
+      setOpenLang(false)
+      setOpen(false)
+    }
+    window.addEventListener('scroll', onScroll)
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   const menu = [
-    { key: "home", link: "#home" },
-    { key: "services", link: "#services" },
-    { key: "team", link: "#team" },
-    { key: "portfolio", link: "#portfolio" },
-    { key: "reviews", link: "#reviews" },
-    { key: "contact", link: "#contact" },
-  ];
-  const { t } = useTranslation();
+    { key: 'home', link: '/' },
+    { key: 'services', link: '/services' },
+    { key: 'team', link: '/team' },
+    { key: 'portfolio', link: '/blog' },
+    { key: 'reviews', link: '/reviews' },
+    { key: 'contact', link: '/contact' },
+  ]
+
+  const logoSrc = typeof logo === 'object' ? logo.src : logo
+
   return (
     <>
-      {/* DESKTOP HEADER */}
-      <header className="relative text-[#d4d4d3] items-center hidden lg:flex justify-between pt-2 z-50 container mx-auto px-10 pb-2">
-        <div className="flex gap-15 items-center">
-          {/* LANGUAGE */}
-          <div className="relative">
-            <button
-              onClick={() => setOpenLanguage((prev) => !prev)}
-              className="flex items-center gap-1 cursor-pointer hover:text-white"
-            >
-              <MdOutlineLanguage size={20} />
-              {currentLang.label}
-            </button>
-
-            {openLanguage && (
-              <div className="absolute top-full mt-2 left-0 bg-[#2b2b2b] rounded-md shadow-2xl w-36 z-50">
-                {languages
-                  .filter((lang) => lang.code !== currentLang.code)
-                  .map((lang) => (
-                    <div
-                      key={lang.code}
-                      onClick={() => {
-                        setCurrentLang(lang);
-                        i18n.changeLanguage(lang.code);
-                        setOpenLanguage(false);
-                      }}
-                      className="px-4 py-2 hover:bg-[#3a3a3a] cursor-pointer"
-                    >
-                      {lang.label}
-                    </div>
-                  ))}
+      {/* DESKTOP NAV WRAPPER */}
+      <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
+        scrolled ? 'py-3' : 'py-5'
+      }`}>
+        <div className="max-w-[1440px] mx-auto px-3 sm:px-5 lg:px-6">
+          <nav className={`transition-all duration-500 rounded-2xl px-3 sm:px-5 lg:px-6 flex items-center justify-between h-16 lg:h-18 border backdrop-blur-xl ${
+            scrolled
+              ? 'bg-[#0a0b12]/85 border-white/15 shadow-2xl shadow-black/80'
+              : 'bg-[#0d0e17]/60 border-white/10 shadow-xl shadow-black/40'
+          }`}>
+            {/* LOGO */}
+            <Link href="/" className="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+              <div className="relative">
+                <img
+                  src={logoSrc}
+                  alt="PatentLex"
+                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl object-cover ring-2 ring-amber-400/40 group-hover:ring-amber-400 transition-all duration-300 shadow-md group-hover:shadow-[0_0_12px_#fbbf24]"
+                />
               </div>
-            )}
-          </div>
+              <span className="font-extrabold text-base sm:text-lg tracking-widest hidden sm:block text-amber-400 group-hover:text-amber-300 transition-colors duration-300">
+                PATENT<span className="text-white">LEX</span>
+              </span>
+            </Link>
 
-          {/* LOCATION */}
-          <a
-            href="https://www.google.com/maps/search/?api=1&query=Ташкент,+ул.+А.Навои,+30"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 hover:text-white"
-          >
-            {t("location")}
-            <SiGooglemaps />
-          </a>
-        </div>
+            {/* CENTER MENU - DESKTOP */}
+            <ul className="hidden lg:flex items-center gap-1 bg-white/4 p-1 rounded-xl border border-white/6 backdrop-blur-md">
+              {menu.map((item) => {
+                const isActive = pathname === item.link
+                return (
+                  <li key={item.key}>
+                    <Link
+                      href={item.link}
+                      className={`relative px-2.5 xl:px-3.5 py-1.5 rounded-lg text-[11px] xl:text-[12px] font-extrabold tracking-wider uppercase transition-all duration-300 flex items-center gap-1.5 whitespace-nowrap ${
+                        isActive
+                          ? 'bg-amber-400/15 text-amber-300 border border-amber-400/30 shadow-md'
+                          : 'text-zinc-300 hover:text-white hover:bg-white/8'
+                      }`}
+                    >
+                      {t(`menu.${item.key}`)}
+                      {isActive && (
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_6px_#fbbf24] animate-pulse" />
+                      )}
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
 
-        <div className="flex items-center gap-15">
-          <a
-            href="tel:+998946871910"
-            className="flex items-center gap-1 hover:text-white"
-          >
-            <FaPhoneFlip />
-            +998-94-687-19-10
-          </a>
-          <a
-            href="tel:+998946871910"
-            className="flex items-center gap-1 hover:text-white"
-          >
-            <FaPhoneFlip />
-            +998-88-147-00-81
-          </a>
+            {/* RIGHT CONTROLS */}
+            <div className="flex items-center gap-3">
+              {/* LANGUAGE SELECTOR */}
+              <div className="relative hidden md:block">
+                <button
+                  onClick={() => setOpenLang(p => !p)}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-[12px] font-bold tracking-widest text-zinc-200 hover:text-amber-300 bg-white/5 hover:bg-white/10 border border-white/8 transition-all duration-300"
+                >
+                  <MdOutlineLanguage size={16} className="text-amber-400" />
+                  {currentLang.label}
+                </button>
+                {openLang && (
+                  <div className="absolute top-full mt-2 right-0 rounded-2xl shadow-2xl overflow-hidden border border-white/15 bg-[#12131d]/95 backdrop-blur-xl z-50 min-w-[100px] p-1.5 flex flex-col gap-1">
+                    {languages.map(lang => (
+                      <button
+                        key={lang.code}
+                        onClick={() => { i18n.changeLanguage(lang.code); setOpenLang(false) }}
+                        className={`w-full px-4 py-2 rounded-xl text-[12px] font-bold tracking-widest text-left transition-all ${
+                          currentLang.code === lang.code
+                            ? 'bg-amber-400/20 text-amber-300 border border-amber-400/30'
+                            : 'text-zinc-300 hover:bg-white/10 hover:text-white'
+                        }`}
+                      >
+                        {lang.label}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
 
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=patentlextashkent@gmail.com&su=Legal%20Consultation"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 hover:text-white"
-          >
-            <MdOutlineMailOutline size={20} />
-            <span>patentlextashkent@gmail.com</span>
-          </a>
+              {/* CONTACT CTA - DESKTOP */}
+              <Link
+                href="/contact"
+                className="hidden lg:flex items-center gap-2 px-5 py-2.5 rounded-xl text-[12px] font-extrabold tracking-wider uppercase transition-all duration-300 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-black shadow-lg shadow-amber-400/25 hover:shadow-amber-400/40 hover:-translate-y-0.5 active:translate-y-0"
+              >
+                {t('menu.contact')}
+              </Link>
+
+              {/* HAMBURGER */}
+              <button
+                onClick={() => setOpen(true)}
+                className="lg:hidden w-10 h-10 rounded-xl flex items-center justify-center text-zinc-200 bg-white/5 hover:bg-white/10 border border-white/10 transition-all"
+              >
+                <FiMenu size={20} />
+              </button>
+            </div>
+          </nav>
         </div>
       </header>
-      <div className="w-full hidden lg:block h-0.5 bg-linear-to-l from-[#FCFFD4] to-99.9% relative z-10"></div>
 
-      {/* NAVBAR */}
-      <div className="relative z-30 items-center container mx-auto px-10 hidden md:flex justify-between w-full pt-1 text-[#FCFFD4] text-lg">
-        <img
-          src={logo}
-          alt="logotip"
-          className="w-12 h-12 rounded-full object-cover"
-        />
-
-        <nav className="lg:w-2/3 w-3/4">
-          <ul className="flex justify-between items-center h-full gap-6 xl:gap-0">
-            {menu.map((item, index) => (
-              <li key={index} className="relative group p-0.5">
-                <a href={item.link} className="block py-1">
-                  {t(`menu.${item.key}`)}
-                </a>
-                <span className="absolute left-0 -bottom-1 w-full h-1 bg-linear-to-r from-white/70 to-transparent md:opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-500"></span>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
-
-      {/* MOBILE HEADER */}
-      <div className="md:hidden fixed top-0 left-0 w-full z-30 bg-black/60 backdrop-blur-lg text-[#FCFFD4] px-5 py-4 flex justify-between items-center">
-        <p className="text-lg font-semibold">PatentLex</p>
-
-        {!open && (
-          <button onClick={() => setOpen(true)} className="text-3xl">
-            <FiMenu />
-          </button>
-        )}
-      </div>
-
-      {/* MOBILE MENU */}
+      {/* MOBILE MENU OVERLAY */}
       {open && (
-        <div className="fixed inset-0 bg-black/90 backdrop-blur-xl z-50 flex flex-col items-center justify-center gap-10 text-2xl text-[#FCFFD4] md:hidden">
-          <FiX
-            size={30}
-            onClick={() => setOpen(false)}
-            className="absolute top-5 right-5 text-4xl"
-          />
-
-          {menu.map((item) => (
-            <a key={item.key} href={item.link} onClick={() => setOpen(false)}>
-              {t(`menu.${item.key}`)}
-            </a>
-          ))}
+        <div className="fixed inset-0 z-[100] flex flex-col bg-[#07070d]/95 backdrop-blur-2xl transition-all duration-300">
+          <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
+            <span className="font-extrabold text-xl tracking-widest text-amber-400">PATENTLEX</span>
+            <button
+              onClick={() => setOpen(false)}
+              className="w-10 h-10 rounded-xl flex items-center justify-center text-zinc-400 hover:text-white bg-white/5"
+            >
+              <FiX size={22} />
+            </button>
+          </div>
+          <div className="flex flex-col items-start px-8 pt-8 gap-2">
+            {menu.map((item) => {
+              const isActive = pathname === item.link
+              return (
+                <Link
+                  key={item.key}
+                  href={item.link}
+                  onClick={() => setOpen(false)}
+                  className={`w-full py-3.5 px-4 rounded-xl text-xl font-bold tracking-wide transition-all ${
+                    isActive
+                      ? 'bg-amber-400/15 text-amber-300 border border-amber-400/30'
+                      : 'text-zinc-200 hover:text-amber-300 hover:bg-white/5'
+                  }`}
+                >
+                  {t(`menu.${item.key}`)}
+                </Link>
+              )
+            })}
+          </div>
+          {/* Mobile lang */}
+          <div className="flex gap-3 px-8 pt-8 mt-auto pb-10 border-t border-white/10">
+            {languages.map(lang => (
+              <button
+                key={lang.code}
+                onClick={() => { i18n.changeLanguage(lang.code); setOpen(false) }}
+                className={`flex-1 py-3 rounded-xl text-sm font-bold tracking-widest transition-all ${
+                  currentLang.code === lang.code
+                    ? 'bg-amber-400 text-black shadow-lg shadow-amber-400/20'
+                    : 'bg-white/5 text-zinc-400 border border-white/10'
+                }`}
+              >
+                {lang.label}
+              </button>
+            ))}
+          </div>
         </div>
       )}
-
-      {/* MOBILE LANGUAGE FLOAT BUTTON */}
-      <div className="lg:hidden fixed bottom-6 right-5 z-9999">
-        <div className="relative">
-          {/* GLOBUS BUTTON */}
-          <button
-            onClick={() => setOpenLanguage((prev) => !prev)}
-            className="
-        w-14 h-14 rounded-full 
-        bg-black/70 backdrop-blur-md
-        flex items-center justify-center
-        text-[#FCFFD4]
-        shadow-xl
-        transition-all duration-300
-        hover:scale-110
-        animate-pulse
-      "
-          >
-            <MdOutlineLanguage size={26} />
-          </button>
-
-          {/* LANGUAGE OPTIONS */}
-          {openLanguage && (
-            <div
-              className="
-          absolute bottom-16 right-0
-          bg-[#2b2b2b]
-          rounded-xl shadow-2xl
-          overflow-hidden
-          animate-[fadeInUp_0.25s_ease-out]
-        "
-            >
-              {languages
-                .filter((lang) => lang.code !== currentLang.code)
-                .map((lang) => (
-                  <div
-                    key={lang.code}
-                    onClick={() => {
-                      setCurrentLang(lang);
-                      i18n.changeLanguage(lang.code);
-                      setOpenLanguage(false);
-                    }}
-                    className="
-                px-5 py-3 text-[#FCFFD4]
-                hover:bg-[#3a3a3a]
-                cursor-pointer
-                whitespace-nowrap
-              "
-                  >
-                    {lang.label}
-                  </div>
-                ))}
-            </div>
-          )}
-        </div>
-      </div>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

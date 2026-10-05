@@ -1,120 +1,82 @@
-import { useState, useEffect } from "react";
-import "../../Custom/Custom.css";
-import { items } from "./servisecData";
-import ServiceCard from "./ServiceCard";
-import { useTranslation } from "react-i18next";
-import ServiceModal from "./ServiceModal";
+'use client'
 
-function Services() {
-  const [showAll, setShowAll] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-  const [active, setActive] = useState("jur");
-  const [activeService, setActiveService] = useState(null);
+import { useState } from 'react'
+import { items } from './servisecData'
+import ServiceCard from './ServiceCard'
+import { useTranslation } from 'react-i18next'
+import ServiceModal from './ServiceModal'
+import SectionHeader from '../Common/SectionHeader'
+import { useTheme } from '../../ThemeContext'
+import '../../i18n'
 
-  const { t } = useTranslation();
-
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+export default function Services() {
+  const [activeService, setActiveService] = useState(null)
+  const { t } = useTranslation()
+  const { dark } = useTheme() || { dark: true }
 
   return (
-    <section id="services" className="py-20 min-h-screen bgGradient">
-      <div className="container flex flex-col justify-around h-full mx-auto px-4 md:px-10">
-        {/* TITLE */}
-        <h2 className="text-4xl md:text-5xl font-bold text-[#FCFFD4] mb-10 text-center">
-          {t("services.title")}
-        </h2>
+    <section
+      id="services"
+      className={`relative py-28 min-h-screen overflow-hidden transition-colors duration-500 ${
+        dark ? 'bg-[#080914] text-zinc-100' : 'bg-zinc-50 text-zinc-900'
+      }`}
+    >
+      {/* Background texture & ambient glow */}
+      <div className="absolute inset-0 pointer-events-none select-none">
+        <img
+          src="/bg_services.png"
+          alt="Patent Protection Background"
+          className="w-full h-full object-cover opacity-20 mix-blend-luminosity filter contrast-125 scale-105"
+        />
+        <div className={`absolute inset-0 ${
+          dark
+            ? 'bg-gradient-to-b from-[#080914]/85 via-[#080914]/90 to-[#080914]'
+            : 'bg-gradient-to-b from-zinc-50/90 via-zinc-50/95 to-zinc-50'
+        }`} />
+        <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-amber-400/20 to-transparent" />
+        <div className={`absolute -bottom-20 right-0 w-[600px] h-[600px] rounded-full blur-[160px] ${
+          dark ? 'bg-amber-500/10' : 'bg-amber-100'
+        }`} />
+        <div className={`absolute top-20 -left-20 w-[500px] h-[500px] rounded-full blur-[140px] ${
+          dark ? 'bg-indigo-900/15' : 'bg-blue-100'
+        }`} />
+      </div>
 
-        {/* SWITCH */}
-        <div className="flex w-full justify-center items-center gap-4 pb-10">
-          <button
-            onClick={() => setActive("fiz")}
-            className={`text-sm md:text-lg transition ${
-              active === "fiz" ? "text-[#FCFFD4]" : "text-white/40"
-            }`}
-          >
-            {t("services.forIndividuals")}
-          </button>
-
-          <div className="relative w-28 flex items-center">
-            <div
-              className="absolute top-1/2 -translate-y-1/2 h-0.5 w-full bg-linear-to-r from-[#FCFFD4] to-transparent transition-transform duration-500"
-              style={{
-                transform: active === "fiz" ? "scaleX(0)" : "scaleX(1)",
-                transformOrigin: active === "fiz" ? "right" : "left",
-              }}
-            />
-            <div
-              className={`absolute h-2 w-2 rounded-full bg-[#FCFFD4] transition-all duration-500 ${
-                active === "fiz" ? "left-0 opacity-100" : ""
-              } ${active === "jur" ? "right-0 opacity-100" : ""}`}
-            />
-          </div>
-
-          <button
-            onClick={() => setActive("jur")}
-            className={`text-sm md:text-lg transition ${
-              active === "jur" ? "text-[#FCFFD4]" : "text-white/40"
-            }`}
-          >
-            {t("services.forCompanies")}
-          </button>
+      <div className="relative z-10 container mx-auto px-6 lg:px-16 max-w-7xl">
+        {/* SECTION HEADER */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <SectionHeader
+            title={t('services.title')}
+            eyebrow={t('services.subtitle') || 'Intellektual Mulk Xizmatlari'}
+          />
         </div>
 
-        {/* SERVICES GRID */}
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center overflow-hidden transition-all duration-500"
-          style={{
-            maxHeight: isMobile ? (showAll ? "2000px" : "650px") : "2000px",
-          }}
-        >
-          {items.map((item) => (
-            <div className="w-full max-w-sm" key={item.id}>
+        {/* 8-SERVICE GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {items.map((item, i) => (
+            <div
+              key={item.id}
+              style={{ animationDelay: `${i * 50}ms` }}
+              className="animate-fadeIn h-full"
+            >
               <ServiceCard
                 icon={item.icon}
                 title={t(`services.${item.id}.title`)}
                 body={t(`services.${item.id}.short`)}
                 onOpen={() => setActiveService(item.id)}
-                isMobile={isMobile}
               />
             </div>
           ))}
         </div>
-
-        {/* MOBILE BUTTON */}
-        {isMobile && (
-          <div className="flex justify-center mt-10">
-            {!showAll ? (
-              <button
-                onClick={() => setShowAll(true)}
-                className="border border-[#FCFFD4]/40 text-[#FCFFD4] px-6 py-3 rounded-xl hover:bg-white/10 transition"
-              >
-                {t("common.showMore")}
-              </button>
-            ) : (
-              <button
-                onClick={() => setShowAll(false)}
-                className="border border-[#FCFFD4]/40 text-[#FCFFD4] px-6 py-3 rounded-xl hover:bg-white/10 transition"
-              >
-                {t("common.hide")}
-              </button>
-            )}
-          </div>
-        )}
       </div>
 
-      {/* MODAL */}
       <ServiceModal
         open={!!activeService}
         onClose={() => setActiveService(null)}
-        title={activeService ? t(`services.${activeService}.title`) : ""}
-        body={activeService ? t(`services.${activeService}.full`) : ""}
+        serviceId={activeService}
+        title={activeService ? t(`services.${activeService}.title`) : ''}
+        body={activeService ? t(`services.${activeService}.full`) : ''}
       />
     </section>
-  );
+  )
 }
-
-export default Services;

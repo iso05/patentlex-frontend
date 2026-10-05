@@ -1,164 +1,344 @@
 {
-  "heroTitle": "Law Firm in the field of Intellectual Property",
-  "heroText": "We provide legal services in the field of intellectual property to individuals and legal entities. We offer reliable cooperation in contract drafting, patenting, legal protection and court representation.",
-  "freeConsultation": "Get Consultation",
-  "sendDocuments": "Send Documents",
+  "heroTitle": "Protect Your Brand and Intellectual Property Lawfully",
+  "heroText": "Official registration of trademarks, patents, and copyrights in Uzbekistan and 130+ foreign jurisdictions. #1 IP Law Firm in Tashkent: contract drafting, court litigation, anti-counterfeiting, and customs IP registry.",
+  "freeConsultation": "Get Free Consultation",
+  "sendDocuments": "Check Brand Online",
+  "heroEyebrow": "Licensed Patent Attorney by Ministry of Justice · Tashkent",
+  "heroBadge": "100% Legal Guarantee & PhD Authority",
+  "availableNow": "24/7 online applications accepted",
+  "freeConsultationShort": "Free Audit",
+  "scroll": "Scroll",
+  "statProjects": "Successful Cases",
+  "statYears": "Years of Practice",
+  "statClients": "Global & Local Clients",
+  "statSuccessRate": "Success Rate",
   "menu": {
     "home": "Home",
-    "services": "Our services",
+    "services": "Services",
+    "checker": "Brand Check",
+    "calculator": "State Fee Calculator",
     "team": "Our Team",
-    "portfolio": "Portfolio",
-    "reviews": "Client Reviewers",
+    "portfolio": "Portfolio & News",
+    "reviews": "Client Reviews",
     "contact": "Contact"
   },
-  "location": "100147, Republic of Uzbekistan, Tashkent city, A. Navoi street, 30 ",
+  "location": "Republic of Uzbekistan, Tashkent, Shaykhontokhur district, Alisher Navoiy Street, 2 (Orda Square)",
+  "brandChecker": {
+    "badge": "AI & Patent Data Pre-Check",
+    "title": "Check Your Brand in 60 Seconds Free",
+    "subtitle": "Evaluate the registrability of your trademark, similarity risks, and state examination pass rate for free.",
+    "inputPlaceholder": "E.g., Apex, SilkRoad, Sofi Burger...",
+    "brandLabel": "Brand or Logo Name:",
+    "nicheLabel": "Select Your Business Industry:",
+    "niches": {
+      "food": "Food, Beverages & Restaurants (Nice Cl. 29, 30, 32, 43)",
+      "it": "IT, Software & Mobile Apps (Nice Cl. 9, 42)",
+      "fashion": "Clothing, Footwear & Fashion (Nice Cl. 25, 35)",
+      "med": "Pharma, Healthcare & Cosmetics (Nice Cl. 3, 5, 44)",
+      "production": "Manufacturing & Construction (Nice Cl. 6, 7, 19)",
+      "retail": "Retail, Commerce & Services (Nice Cl. 35, 39, 41)"
+    },
+    "analyzeBtn": "Analyze Brand (Free)",
+    "analyzing": "Searching patent databases...",
+    "resultReady": "Preliminary Expert Report:",
+    "scoreLabel": "Probability of successful registration:",
+    "highScoreText": "High probability! This trademark name presents excellent metrics for filing with the IP Agency.",
+    "ctaText": "Get a full official trademark search report from a registered Patent Attorney:",
+    "namePlaceholder": "Your Name",
+    "phonePlaceholder": "Phone number (+998 ...)",
+    "sendLeadBtn": "Get Official Report",
+    "successMsg": "Request received! A registered patent attorney will contact you within 15 minutes."
+  },
+  "riskRadar": {
+    "badge": "Legal Risk Radar",
+    "title": "What Risks Do Unprotected Brands Face in Uzbekistan?",
+    "subtitle": "Critical legal and commercial liabilities businesses face without an official trademark registration:",
+    "risk1Title": "Up to 100,000,000+ UZS in Fines and Damages",
+    "risk1Desc": "If a third party registers your business name first, they can sue you in economic court and confiscate profits.",
+    "risk2Title": "Trademark Theft by Aggressive Competitors",
+    "risk2Desc": "Competitors can hijack your brand identity legally if you haven't established state priority through registration.",
+    "risk3Title": "Counterfeit & Low-Quality Copycat Floods",
+    "risk3Desc": "Without a trademark certificate, law enforcement cannot seize or destroy fake products copying your logo.",
+    "risk4Title": "Customs Border Seizure and Confiscation",
+    "risk4Desc": "Imported or exported goods can be impounded at border checkpoints due to intellectual property infringement claims.",
+    "solutionTitle": "What Do You Get With PatentLex?",
+    "sol1": "Official 10-Year State Certificate issued by the Ministry of Justice of Uzbekistan",
+    "sol2": "Absolute legal monopoly over your brand with full court litigation representation",
+    "sol3": "Customs IP Registry listing for 100% border blockage of counterfeit imports",
+    "sol4": "Right to license, franchise, and pledge intellectual property assets to banks"
+  },
+  "processTimeline": {
+    "badge": "Roadmap · 4 Steps",
+    "title": "Transparent Patent & Trademark Journey",
+    "subtitle": "From initial free consultation to obtaining the official government certificate:",
+    "step1Num": "01",
+    "step1Title": "Preliminary Search & Legal Audit",
+    "step1Time": "Within 24 Hours",
+    "step1Desc": "Comprehensive similarity search across national and global databases to eliminate any risk of rejection.",
+    "step2Num": "02",
+    "step2Title": "Filing & Priority Date Establishment",
+    "step2Time": "1 Business Day",
+    "step2Desc": "Proper classification under Nice classes, application compilation, and immediate legal priority date secured.",
+    "step3Num": "03",
+    "step3Title": "State Examination Management",
+    "step3Time": "Continuous Monitoring",
+    "step3Desc": "Direct interaction with state patent examiners, swiftly answering official inquiries and resolving obstacles.",
+    "step4Num": "04",
+    "step4Title": "Certificate Issuance & Protection",
+    "step4Time": "10-Year Monopoly",
+    "step4Desc": "Delivery of official state certificate and long-term brand monitoring against infringers."
+  },
+  "comparisonMatrix": {
+    "badge": "Market Analysis",
+    "title": "Why Choose PatentLex? (Comparison Matrix)",
+    "subtitle": "Entrust your valuable IP assets to registered PhD patent attorneys, not amateur intermediaries:",
+    "featureCol": "Evaluation Criteria",
+    "usCol": "PatentLex IP Firm",
+    "othersCol": "General Agencies / Brokers",
+    "feat1": "Official Ministry of Justice Patent Attorney (PhD Degree)",
+    "feat2": "State examination approval rate",
+    "feat3": "Court litigation & compensation recovery",
+    "feat4": "Customs IP Registry listing (Border Counterfeit Block)",
+    "feat5": "International registration via Madrid System (130+ nations)",
+    "feat6": "Transparent live state fee calculator engine",
+    "feat7": "Application of official 50% state fee discounts",
+    "us1": "Yes (Turdialiyev Muhammad Ali, PhD)",
+    "others1": "Often unlicensed brokers",
+    "us2": "99.4% (Application guarantee)",
+    "others2": "70-80% (High refusal risk)",
+    "us3": "Full advocate trial rights",
+    "others3": "Paperwork filing only",
+    "us4": "Fully implemented",
+    "others4": "Service unavailable",
+    "us5": "Available (USA, EU, CIS, China, UAE)",
+    "others5": "Uzbekistan only",
+    "us6": "Live real-time web engine",
+    "others6": "Opaque and hidden charges",
+    "us7": "100% applied legally",
+    "others7": "Overcharges due to lack of expertise"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Everything About Patents & Trademarks in Uzbekistan",
+    "subtitle": "Official answers to the most frequent intellectual property questions:",
+    "q1": "How long does trademark registration take in Uzbekistan?",
+    "a1": "The standard examination procedure takes 6-7 months. An expedited 1-month fast-track registration procedure is also available upon payment of the designated state fee.",
+    "q2": "How are state fees calculated and are discounts available?",
+    "a2": "State fees depend on applicant status (Individual/Sole Trader vs Legal Entity) and the number of Nice classes. Individuals and Sole Traders receive a 50% official state fee discount. You can calculate the exact amount with our online calculator.",
+    "q3": "What happens if I don't register my brand?",
+    "a3": "Any competitor can legally register your brand name, block your operations, and sue you for damages up to 100M+ UZS.",
+    "q4": "Can PatentLex register trademarks abroad (USA, Europe, Russia)?",
+    "a4": "Yes, through the Madrid System and PCT treaties, we register trademarks and patents in over 130 countries worldwide directly from Tashkent.",
+    "q5": "What are Nice (MKTU) classes and how are they chosen?",
+    "a5": "The Nice Classification consists of 45 international classes of goods and services. For example, Class 43 is restaurants, Class 25 is apparel, Class 42 is IT services. Our experts determine the exact classes for your business.",
+    "q6": "How are copyrights for software, designs, or books protected?",
+    "a6": "Software source code, databases, design assets, and artistic works receive an official Ministry of Justice Copyright Certificate valid for the author's entire life plus 70 years."
+  },
   "services": {
     "title": "Our Services",
-    "forIndividuals": "for individuals",
-    "forCompanies": "for legal entities",
-
+    "subtitle": "Comprehensive legal solutions covering every spectrum of intellectual property",
+    "details": "Service Details",
+    "forIndividuals": "Individuals & Sole Traders",
+    "forCompanies": "Legal Entities & Corporations",
     "trademark": {
-      "title": "Trademarks",
-      "short": "Registration and protection of trademarks.",
-      "full": "Comprehensive legal services for trademark registration, rights protection, dispute resolution and term extension."
+      "title": "Trademarks & Logos",
+      "short": "Registration of brand names, logos, and slogans in Uzbekistan and internationally.",
+      "full": "Full service from preliminary clearance search to official registration certificate: Nice classification, filing, office action responses, 10-year renewals, and licensing contracts."
     },
-
     "patent": {
-      "title": "Patents",
-      "short": "Patenting of inventions, utility models and industrial designs.",
-      "full": "Preparation of patent application documents, filing applications and legal protection of patent rights."
+      "title": "Inventions & Utility Models",
+      "short": "Patenting of technological inventions, formulas, and industrial designs.",
+      "full": "Patent claim drafting, prior art search, filing with the IP Agency, utility model registration, and international PCT patent filings."
     },
-
     "copyright": {
-      "title": "Copyright",
-      "short": "Registration and legal protection of copyright objects.",
-      "full": "Compensation recovery, contract drafting and court representation."
+      "title": "Copyrights & Software Code",
+      "short": "Registration of software, source code, databases, designs, and artistic works.",
+      "full": "Official certificate issuance for software projects, mobile apps, digital courses, databases, and court representation for copyright infringement."
     },
-
     "domains": {
-      "title": " Anti-Counterfeiting and Unfair Competition",
-      "short": "Detection, elimination of counterfeit goods and compensation recovery ",
-      "full": "Fighting against the production of goods similar to yours or identical to the point of confusion."
+      "title": "Anti-Counterfeiting & Fair Competition",
+      "short": "Identification and destruction of copycat goods, market raids, and 100% damage recovery.",
+      "full": "Combating counterfeiters producing fake goods under your brand, organizing law enforcement raids, and recovering full financial damages in court."
     },
-
     "rights": {
-      "title": "IP Protection in Arbitration, Mediation and Courts",
-      "short": "Contract development, examination and court representation",
-      "full": "Preparation of intellectual property agreements, court representation, mediation services."
+      "title": "Court Litigation & Arbitration",
+      "short": "Advocate defense in economic courts, Antimonopoly Committee, and Appeal Board.",
+      "full": "Court trial representation in IP disputes, cancellation of unlawful trademark registrations, and multi-million UZS damage recovery."
     },
-
     "consulting": {
-      "title": "Registration of IP Objects in Customs Register",
-      "short": " Prevention of counterfeit and fake goods import from abroad ",
-      "full": " Implementation of measures in cooperation with customs to prevent the import of counterfeit goods from abroad."
+      "title": "Customs IP Registry",
+      "short": "Blocking the import and export of counterfeit products at state borders.",
+      "full": "Entering registered trademarks into the State Customs IP Registry to automatically seize and destroy copycats at the border."
+    },
+    "international": {
+      "title": "International Registration (Madrid)",
+      "short": "Protecting your brand in the USA, EU, China, Russia, CIS, and UAE under a single application.",
+      "full": "Filing under the Madrid Agreement and Protocol across 130+ nations. Essential global legal security for exporting companies."
+    },
+    "franchise": {
+      "title": "Franchising & Licensing Agreements",
+      "short": "Franchise packaging, license agreements, and complete brand assignment transfers.",
+      "full": "Drafting comprehensive business licensing (franchise) contracts, trademark licenses, assignment deeds, and registering them with the Ministry of Justice."
     }
   },
   "common": {
-    "showMore": " Show More ",
-    "hide": " Close "
+    "showMore": "Show More",
+    "hide": "Hide",
+    "readMore": "Learn More",
+    "contactExpert": "Consult Patent Attorney"
   },
   "team": {
-    "title": " Our Team ",
+    "title": "Our Team & Experts",
+    "subtitle": "PhD-qualified IP attorneys with practical experience protecting over 1,000+ brands",
     "members": {
       "yomi": {
-        "name": " Dr. Mukhammad Ali Turdialiev ",
-        "role": "Doctor of Law, Managing Partner, Patent Attorney, Advocate, Mediator",
-        "info": "Leading specialist in international private law, patent attorney of international and national level. Patent attorney for 1000+ brands (European Union, CIS, USA and African countries) in Uzbekistan. Lawyer with over 5 years of legal experience."
+        "name": "Turdialiyev Muhammad Ali",
+        "role": "Managing Partner, Registered Patent Attorney, Advocate, Mediator, PhD",
+        "info": "PhD in Private International Law, official Patent Attorney registered with the Ministry of Justice of Uzbekistan. Official representative of 1,000+ brands (EU, CIS, USA, China). Experienced advocate with extensive courtroom victories in intellectual property litigation."
       },
       "timothee": {
-        "name": "Jurayev Muhammadiso Yahyo ugli",
-        "role": "Software, Assistant Lawyer for IT matters",
-        "info": "Specialist in modern software and digital solutions development. Has extensive experience in creating legal platforms, web applications and business process automation."
+        "name": "Jo‘rayev Muhammadiso Yahyo o‘g‘li",
+        "role": "LegalTech Architect & Software Developer, Assistant",
+        "info": "Specialist in LegalTech automation, state fee calculation engines, and IP registry database integration."
+      },
+      "azizxoja": {
+        "name": "Mamirxodjayev Azizxoʻja",
+        "role": "Chief Patent Prosecution Jurist",
+        "info": "Lead specialist in trademark dossier compilation, appeal responses, and client portfolio management."
       }
     },
     "features": {
       "fast": {
-        "title": "Fast Execution",
-        "text": "We deliver tasks quickly with no delays."
+        "title": "1-Day Priority Filing",
+        "text": "Applications filed within 24 hours to secure immediate legal priority over competitors."
       },
       "trusted": {
-        "title": "Trusted Team",
-        "text": "A reliable team with proven experience."
+        "title": "PhD Degree & License",
+        "text": "Complete legal accountability backed by an official Ministry of Justice attorney license."
       },
       "secure": {
-        "title": "Secure & Reliable",
-        "text": "Your data is always safe with us."
+        "title": "100% NDA Confidentiality",
+        "text": "Your innovative ideas, source codes, and trade secrets are strictly safeguarded."
       },
       "performance": {
-        "title": "High Performance",
-        "text": "Focused on quality and smart execution."
+        "title": "99.4% Success Rate",
+        "text": "Rejection risks eliminated at the preliminary clearance search stage."
       }
     }
   },
   "portfolio": {
-    "title": "Our Works",
-    "subtitle": "Completed projects crafted with precision and modern technology.",
+    "title": "Protected Portfolios & Milestones",
+    "subtitle": "Key brands and milestones successfully safeguarded by our legal team.",
     "date": "{{date}}",
     "items": {
       "digitalBridge": {
-        "title": "Legalmax at the Digital Bridge 2025 Innovation Center"
+        "title": "Presentation of LegalTech innovations at Digital Bridge 2025"
       },
       "roundTable": {
-        "title": "International Round Table on Brand Strengthening"
+        "title": "International roundtable on anti-counterfeiting strategies"
       },
-      "altPatent": { "title": "ALT officially became a patented invention" },
-      "findSalt": { "title": "Find Salt — brand registration" },
-      "training": { "title": "Legalmax corporate training" },
-      "conference": { "title": "Legalmax scientific-practical conference" }
+      "altPatent": {
+        "title": "ALT brand officially granted utility model patent status"
+      },
+      "findSalt": { "title": "Comprehensive IP portfolio protection for Find Salt brand" },
+      "training": { "title": "Corporate masterclass on intellectual property defense" },
+      "conference": { "title": "International patent attorney congress and scientific conference" }
     },
     "stats": {
-      "projects": "Completed Projects",
+      "projects": "Successful Cases",
       "experience": "Years of Experience",
-      "clients": "Clients Worldwide"
+      "clients": "Global Clients"
     }
   },
-  "common1": {
-    "showMore": "Show more",
-    "hide": "Hide"
-  },
   "reviews": {
-    "title": "Client Reviews",
-    "subtitle": "What our partners and clients say about us.",
+    "title": "Client Testimonials & Partners",
+    "subtitle": "What international and domestic business leaders say about PatentLex:",
     "items": {
       "review1": {
-        "text": "The team demonstrated high professionalism. The project was delivered quickly and with great quality.",
-        "name": "Maria Ivanova",
-        "role": "CEO — LUXE Brand"
+        "text": "The PatentLex team handled the entire registration process flawlessly. They are our most trusted patent attorneys in Uzbekistan.",
+        "name": "Manuel Eladio Chavvaria",
+        "role": "Director — FANALBA S.A. GROUP (Ecuador)"
       },
       "review2": {
-        "text": "We have been working together for a year. Outstanding attention to detail and excellent customer service.",
-        "name": "Alexey Trofimov",
-        "role": "Entrepreneur"
+        "text": "The team consistently demonstrates the highest standard of professionalism. Our copyrights and trademarks are in safe hands!",
+        "name": "Jahongir Bafoyev",
+        "role": "CEO — Bukhara Books Print"
       },
       "review3": {
-        "text": "They took full ownership of the process. We save dozens of hours every month.",
-        "name": "Olga Sokolova",
-        "role": "COO — Nova Group"
+        "text": "We have partnered for years on industrial design and brand protection. Every case has been 100% successful.",
+        "name": "EUROPLEKS XK Team",
+        "role": "Founder of ECOBaget Brand"
+      },
+      "review4": {
+        "text": "Successfully executed several major IP projects with PatentLex. True masters of intellectual property law.",
+        "name": "Akmal Aslonov",
+        "role": "Entrepreneur & Investor"
       }
     }
   },
   "contact": {
-    "title": "We Can Help You",
+    "title": "Shield Your Brand Starting Today",
+    "subtitle": "Get a free consultation from a registered patent attorney and secure your lawful monopoly",
     "city": "Tashkent, Uzbekistan",
-    "workdays": "Mon – Fri: 9:00 – 18:00",
-    "weekend": "Sat – Sun: closed",
+    "workdays": "Mon – Fri: 9:00 – 18:00 (Online applications 24/7)",
+    "weekend": "Sat – Sun: Duty attorney on call",
     "formTitle": "Free Legal Consultation",
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "send": "Send",
-    "sending": "Sending...",
-    "success": "Message sent successfully ✓",
-    "error": "Error while sending",
-    "policy": "By clicking send, you agree to the processing of your personal data."
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Brief description of your brand or project",
+    "send": "Submit Request",
+    "sending": "Submitting...",
+    "success": "Request received! A patent attorney will contact you within 15 minutes ✓",
+    "error": "An error occurred. Please call us directly.",
+    "policy": "By submitting, you agree to personal data processing and our privacy policy.",
+    "phoneLabel": "Phone Number",
+    "emailLabel": "Email Address",
+    "addressLabel": "Office Address",
+    "hoursLabel": "Business Hours"
   },
   "footer": {
-    "brand": "Legal Time",
-    "description": "We provide professional legal services for individuals and businesses.",
-    "rights": "All rights reserved",
+    "brand": "PatentLex",
+    "description": "Official Patent Attorney registered with the Ministry of Justice of Uzbekistan & Intellectual Property Law Firm. Trademarks, patents, copyrights, and customs IP defense.",
+    "rights": "All rights reserved. PatentLex IP Law Firm © 2026",
     "navigation": "Navigation",
-    "contact": "Contact",
-    "location": "Tashkent, Uzbekistan",
-    "bottom": "Professional legal services — trust and quality"
+    "servicesTitle": "IP Services",
+    "contact": "Contact & Location",
+    "location": "Tashkent, Shaykhontokhur dist., Alisher Navoiy St., 2 (Orda Square)",
+    "bottom": "Professional Patent Attorney Services — 100% Lawful Protection",
+    "legalTitle": "Legal Information",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy"
+  },
+  "calcPage": {
+    "eyebrow": "PatentLex State Fee Engine · 100% Exact Calculation",
+    "titlePart1": "Calculate Uzbekistan State Fees",
+    "titlePart2": "Accurately in 1 Second",
+    "description": "Determine exact official government fees based on Ministry of Justice regulations, Basic Calculation Amount (BCA/BHM), and Nice classes.",
+    "demoTitle": "Live State Fee Calculator",
+    "demoSubtitle": "Select applicant entity type and number of Nice classes:",
+    "formHeader": "1. Applicant Status & Nice Classes",
+    "applicantStatus": "Applicant Status (Entity Type):",
+    "physicalPerson": "Individual / Sole Trader (-50% State Discount)",
+    "legalEntity": "Legal Entity (LLC, Corp, Enterprise)",
+    "speedMode": "Examination Speed:",
+    "standardSpeed": "Standard Speed (6-7 months)",
+    "fastSpeed": "⚡ Fast-Track (1 month)",
+    "mktuClasses": "Number of Nice Classes:",
+    "standardFeeNote": "Calculated in real-time based on official Basic Calculation Amount (BHM).",
+    "reportDemoTitle": "Official State Fee Breakdown:",
+    "appFeeLabel": "1. Application filing fee:",
+    "regFeeLabel": "2. Certificate issuance fee:",
+    "totalAmountLabel": "Total Official State Fee:",
+    "bhmInfo": "Current BHM: 412,000 UZS",
+    "sendCalcTelegram": "Export Breakdown to Telegram & Get Consultation",
+    "mktuTitle": "What is Nice Classification and How is it Calculated?",
+    "mktuSubtitle": "MKTU CLASSIFICATION & GUIDE",
+    "mktuQ1": "1. What is Nice (MKTU) Classification?",
+    "mktuA1": "The Nice Classification is an international 45-class system identifying the specific industries (e.g., IT, restaurants, apparel) in which your trademark is protected.",
+    "mktuQ2": "2. How Does Class Count Affect State Fees?",
+    "mktuA2": "The base filing fee covers the 1st class, while each additional class incurs a designated official supplementary state fee.",
+    "mktuQ3": "3. Professional Calculation Engine",
+    "mktuA3": "Our web engine automatically calculates exact fees for all 45 classes, applies 50% discounts for individuals, and generates a structured breakdown for commercial offers and Telegram."
   }
 }

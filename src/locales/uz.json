@@ -1,166 +1,344 @@
 {
-  "heroTitle": "Intellektual mulk sohasiga ixtisoslashgan yuridik kompaniya",
-  "heroText": "Biz jismoniy va yuridik shaxslarga Intellektual mulk huquqiga oid yuridik xizmatlar ko‘rsatamiz. Shartnomalar tuzish, patentlash, huquqiy muhofaza qilsih va sud vakilligi bo‘yicha ishonchli hamkorlik taklif qilamiz",
-  "freeConsultation": "Konsultatsiya olish",
-  "sendDocuments": "Hujjatlarni yuborish",
+  "heroTitle": "Brend va Intellektual Mulkingizni Rasmiy Qonuniy Mulkka Aylantiring",
+  "heroText": "O‘zbekiston va 130+ xorijiy davlatda tovar belgilari, patentlar va mualliflik huquqlarini rasmiy ro‘yxatdan o‘tkazish. Shartnomalar tuzish, sudlarda vakillik, kontrafaktga qarshi kurashish va bojxona himoyasi bo‘yicha O‘zbekistondagi 1-raqamli yuridik agentlik.",
+  "freeConsultation": "Bepul Maslahat Olish",
+  "sendDocuments": "Brendni Tekshirishga Yuborish",
+  "heroEyebrow": "Adliya Vazirligi Litsenziyali Patent Vakili · Toshkent",
+  "heroBadge": "100% Rasmiy Huquqiy Himoya & PhD Ekspertiza",
+  "availableNow": "Hozirda 24/7 onlayn qabul ochiq",
+  "freeConsultationShort": "Bepul tahlil",
+  "scroll": "Pastga",
+  "statProjects": "Muvaffaqiyatli Loyihalar",
+  "statYears": "Yillik Professional Tajriba",
+  "statClients": "Xalqaro va Mahalliy Brendlar",
+  "statSuccessRate": "Muvaffaqiyat Ko'rsatkichi",
   "menu": {
     "home": "Bosh sahifa",
-    "services": "Bizning xizmatlar",
-    "team": "Bizning jamoa",
-    "portfolio": "Portfolio",
-    "reviews": "Mijozlar fikri",
-    "contact": "Aloqa"
+    "services": "Bizning Xizmatlar",
+    "checker": "Brendni Tekshirish",
+    "calculator": "Davlat Boji Hisoblagich",
+    "team": "Bizning Jamoa",
+    "portfolio": "Portfolio & Yangiliklar",
+    "reviews": "Mijozlar Fikri",
+    "contact": "Bog‘lanish"
   },
-  "location": "O‘zbekiston Respublikasi, Toshkent shahar, A. Navoiy ko‘chasi, 30",
+  "location": "O‘zbekiston Respublikasi, Toshkent shahar, Shayxontohur tumani, Alisher Navoiy ko‘chasi, 2-uy (Orda maydoni bekati)",
+  "brandChecker": {
+    "badge": "AI & Patent Data Pre-Check",
+    "title": "Brendingizni 60 Soniyada Bepul Tekshiring",
+    "subtitle": "Tovar belgisi bo'yicha patentga yaroqlilik, o'xshashlik xavfi va davlat ekspertizasidan o'tish imkoniyatini bepul bilib oling.",
+    "inputPlaceholder": "Masalan: Apex, SilkRoad, Sofi Burger...",
+    "brandLabel": "Brend yoki Logotip Nomi:",
+    "nicheLabel": "Faoliyat Sohasini Tanlang:",
+    "niches": {
+      "food": "Oziq-ovqat, Ichimliklar & Restoranlar (МКТУ 29, 30, 32, 43)",
+      "it": "IT, Dasturiy ta'minot & Mobil Ilovalar (МКТУ 9, 42)",
+      "fashion": "Kiyim-kechak, Poyabzal & Moda (МКТУ 25, 35)",
+      "med": "Farmatsevtika, Tibbiyot & Kosmetika (МКТУ 3, 5, 44)",
+      "production": "Sanoat Ishlab Chiqarish & Qurilish (МКТУ 6, 7, 19)",
+      "retail": "Savdo, Do'konlar & Xizmat Ko'rsatish (МКТУ 35, 39, 41)"
+    },
+    "analyzeBtn": "Brendni Tahlil Qilish (Bepul)",
+    "analyzing": "Ma'lumotlar bazasi tekshirilmoqda...",
+    "resultReady": "Dastlabki Ekspertiza Xulosasi:",
+    "scoreLabel": "Ro'yxatdan o'tish ehtimoli:",
+    "highScoreText": "Yuqori ehtimollik! Ushbu nom tovar belgisi sifatida talabnoma topshirish uchun qulay ko'rsatkichga ega.",
+    "ctaText": "Adliya vazirligi vakilidan 100% aniq rasmiy qidiruv va ro'yxatdan o'tkazish rejasini oling:",
+    "namePlaceholder": "Ismingiz",
+    "phonePlaceholder": "Telefon raqamingiz (+998 ...)",
+    "sendLeadBtn": "To'liq Rasmiy Xulosani Olish",
+    "successMsg": "Arizangiz qabul qilindi! Patent vakili tez orada siz bilan bog'lanadi."
+  },
+  "riskRadar": {
+    "badge": "Legal Risk Radar",
+    "title": "Patentlanmagan Brend Qanday Xatarlarni Keltirib Chiqaradi?",
+    "subtitle": "O'zbekiston qonunchiligiga ko'ra o'z brendini patentlamagan tadbirkorlar duch keladigan asosiy xavflar:",
+    "risk1Title": "100 000 000+ so'mgacha Jarima va Tovon Puli",
+    "risk1Desc": "Agar boshqa shaxs siz ishlatayotgan nomni patentlab olsa, sud orqali barcha daromadingizdan tovon puli undirib olishi mumkin.",
+    "risk2Title": "Raqobatchilar Tovar Belgisini O'g'irlashi",
+    "risk2Desc": "Yillar davomida obro' to'plagan brendingizni raqobatchi birinchi bo'lib ro'yxatdan o'tkazsa, biznesingizni yopishga majbur bo'lasiz.",
+    "risk3Title": "Kontrafakt va Soxta Mahsulotlar To'lqini",
+    "risk3Desc": "Logotipingizdan foydalanib arzon soxta mahsulot sotuvchilar paydo bo'ladi va ularni qonuniy to'xtata olmaysiz.",
+    "risk4Title": "Bojxonada Tovarlarning Musodara Bo'lishi",
+    "risk4Desc": "Xorijdan olib kelinayotgan yoki eksport qilinayotgan tovarlar chegarada intellektual mulk buzilishi sababli ushlanadi.",
+    "solutionTitle": "PatentLex Bilan Siz Nimalarga Ega Bo'lasiz?",
+    "sol1": "O'zbekiston Respublikasi Adliya vazirligining 10 yillik rasmiy davlat guvohnomasi",
+    "sol2": "Raqobatchilarni sud orqali to'xtatish va tovon puli undirish bo'yicha mutlaq huquq",
+    "sol3": "Bojxona reestriga kiritish orqali kontrafakt tovarlar kirib kelishini 100% to'xtatish",
+    "sol4": "Brendni litsenziya orqali sotish, franchayzing qilish va bankka garov sifatida qo'yish imkoniyati"
+  },
+  "processTimeline": {
+    "badge": "Roadmap · 4 Qadam",
+    "title": "Patent Olishning Shaffof Jarayoni",
+    "subtitle": "Birinchi maslahatdan boshlab davlat guvohnomasini qo'lga kiritguncha bo'lgan to'liq bosqichlar:",
+    "step1Num": "01",
+    "step1Title": "Dastlabki Qidiruv & Huquqiy Audit",
+    "step1Time": "24 Soat Ichida",
+    "step1Desc": "Milliy va xalqaro patent bazalarida brendingizning mutlaq o'xshash emasligini chuqur tekshiramiz va rad etilish xavfini nolga tushiramiz.",
+    "step2Num": "02",
+    "step2Title": "Talabnoma Tayyorlash & Topshirish",
+    "step2Time": "1 Ish Kuni",
+    "step2Desc": "Adliya vazirligi talablariga muvofiq barcha rasmiy hujjatlarni to'g'ri shakllantiramiz va birinchi daqiqadanoq ustuvorlik sanasini o'rnatamiz.",
+    "step3Num": "03",
+    "step3Title": "Davlat Ekspertizasi Nazorati",
+    "step3Time": "Doimiy Monitoring",
+    "step3Desc": "Forma va mohiyat bo'yicha davlat ekspertizasi jarayonida patent idorasi ekspertlari bilan to'g'ridan-to'g'ri aloqada bo'lib, barcha savollarni yechamiz.",
+    "step4Num": "04",
+    "step4Title": "Davlat Guvohnomasi & Doimiy Himoya",
+    "step4Time": "10 Yillik Monopoliya",
+    "step4Desc": "Rasmiy patent/guvohnomani topshiramiz hamda kelgusida brendingiz noqonuniy nusxalanishidan himoyalanishini nazorat qilib boramiz."
+  },
+  "comparisonMatrix": {
+    "badge": "Bozor Tahlili",
+    "title": "Nega Aynan PatentLex? (Faktlar bilan Taqqoslash)",
+    "subtitle": "Intellektual mulkingizni oddiy vositachilarga emas, ilmiy darajaga ega rasmiy patent advokatlariga ishoning:",
+    "featureCol": "Xizmat Ko'rsatkichi",
+    "usCol": "PatentLex Agentligi",
+    "othersCol": "Oddiy Yuridik Agentliklar",
+    "feat1": "Adliya vazirligi rasmiy patent vakili (PhD ilmiy daraja)",
+    "feat2": "Davlat ekspertizasidan o'tish muvaffaqiyat ko'rsatkichi",
+    "feat3": "Sudlarda to'liq vakillik va tovon puli undirib berish",
+    "feat4": "Bojxona intellektual mulk reestriga kiritish (Kontrafakt blokirovkasi)",
+    "feat5": "130+ davlatda Madrid tizimi orqali xalqaro patentlash",
+    "feat6": "Shaffof davlat bojlari kalkulyatori va 1 soniyada rasmiy hisobot",
+    "feat7": "Bojlarni to'lashda 50% gacha imtiyozlarni to'g'ri qo'llash",
+    "us1": "Mavjud (Turdialiyev Muhammad Ali, PhD)",
+    "others1": "Ko'pincha faqat oddiy vositachi",
+    "us2": "99.4% (Qayta topshirish kafolati)",
+    "others2": "70-80% (Rad bo'lish xavfi yuqori)",
+    "us3": "Ha, Advokatlik maqomiga ega",
+    "others3": "Faqat hujjat topshirish bilan cheklanadi",
+    "us4": "To'liq joriy qilinadi",
+    "others4": "Xizmat mavjud emas",
+    "us5": "Mavjud (AQSH, YeI, MDH, Xitoy, Turkiya)",
+    "others5": "Faqat O'zbekiston ichida",
+    "us6": "Onlayn universal kalkulyator",
+    "others6": "Noaniq va yashirin to'lovlar",
+    "us7": "100% rasmiy qo'llaniladi",
+    "others7": "Bilimsizlik sabab ortiqcha to'lov"
+  },
+  "faq": {
+    "badge": "Ko'p Beriladigan Savollar",
+    "title": "Patentlash va Tovar Belgilari Bo'yicha Barcha Javoblar",
+    "subtitle": "Mijozlarimiz eng ko'p so'raydigan savollarga patent vakilining rasmiy izohlari:",
+    "q1": "Tovar belgisini ro'yxatdan o'tkazish qancha vaqt oladi?",
+    "a1": "Standart tartibda tovar belgisini davlat ekspertizasidan o'tkazish 6-7 oy davom etadi. Agar sizga tezkor xizmat kerak bo'lsa, davlat boji to'lanib, 1 oylik tezkor ekspertiza rejimida ro'yxatdan o'tkazish imkoniyati mavjud.",
+    "q2": "Davlat bojlari miqdori qanday hisoblanadi va imtiyozlar bormi?",
+    "a2": "Davlat boji arizachi maqomiga (Jismoniy shaxs / YTT yoki Yuridik shaxs) hamda MKTU sinflari soniga bog'liq. Jismoniy shaxslar va YTTlar uchun davlat bojlarida 50% rasmiy imtiyoz mavjud. Saytimizdagi kalkulyator orqali aniq summani hisoblab olishingiz mumkin.",
+    "q3": "Agar brendimni ro'yxatdan o'tkazmasam nima bo'ladi?",
+    "a3": "Brendingiz nomidan har qanday raqobatchi foydalanishi, hatto uni o'z nomiga patentlab olib, sizga faoliyat yuritishni taqiqlashi va sud orqali 100 mln so'mgacha jarima/tovon puli talab qilishi mumkin.",
+    "q4": "PatentLex orqali boshqa davlatlarda (masalan: AQSH, Yevropa, Rossiya, Qozog'iston) ham patent olsa bo'ladimi?",
+    "a4": "Ha, biz Madrid tizimi va xalqaro konventsiyalar orqali O'zbekistondan turib 130 dan ortiq davlatda tovar belgisini va xalqaro patentlarni ro'yxatdan o'tkazib beramiz.",
+    "q5": "MKTU (Xalqaro tasnif) sinflari nima va ularni qanday tanlash kerak?",
+    "a5": "MKTU — tovarlar va xizmatlarning 45 ta xalqaro toifasidir. Masalan, restoran 43-sinf, kiyim 25-sinf, IT 42-sinfga kiradi. Bizning ekspertlarimiz sizning biznesingizga mos barcha sinflarni to'g'ri belgilab beradi.",
+    "q6": "Mualliflik huquqi (IT dastur, dizayn, kitob) qanday himoya qilinadi?",
+    "a6": "Dasturiy ta'minot kodlari, ma'lumotlar bazasi, kitob va san'at asarlariga Adliya vazirligining rasmiy Mualliflik huquqi guvohnomasi olinadi va bu muallif vafotidan keyin 70 yilgacha amal qiladi."
+  },
   "services": {
-    "title": "Bizning xizmatlar",
-    "forIndividuals": "jismoniy shaxslarga",
-    "forCompanies": "yuridik shaxslarga",
-
+    "title": "Bizning Xizmatlar",
+    "subtitle": "Intellektual mulk sohasidagi barcha yo'nalishlar bo'yicha to'liq professional yuridik yechimlar",
+    "details": "Xizmat Tafsilotlari",
+    "forIndividuals": "Jismoniy shaxslar va YTT",
+    "forCompanies": "Yuridik shaxslar va Korxonalar",
     "trademark": {
-      "title": "Tovar belgilari",
-      "short": "Tovar belgilarini ro‘yxatdan o‘tkazish va himoya qilish.",
-      "full": "Tovar belgilarini ro‘yxatdan o‘tkazish, huquqlarni himoya qilish, nizolarni hal etish va amal qilish muddatini uzaytirish bo‘yicha to‘liq yuridik xizmatlar."
+      "title": "Tovar Belgilari & Logotiplar",
+      "short": "Brend, logotip, shior va nomlarni O'zbekiston hamda xalqaro miqyosda ro‘yxatdan o‘tkazish.",
+      "full": "Tovar belgilarini dastlabki qidiruvdan boshlab rasmiy davlat guvohnomasini olguncha bo'lgan barcha bosqichlar: MKTU sinflarini aniqlash, talabnoma topshirish, rad etishlarga e'tiroz bildirish, amal qilish muddatini uzaytirish (10 yilga) va litsenziya shartnomalarini rasmiylashtirish."
     },
-
     "patent": {
-      "title": "Patentlar",
-      "short": "Ixtirolar, foydali model va sanoat namunalarni patentlash.",
-      "full": "Patent olish uchun hujjatlarni tayyorlash, arizalarni topshirish va patent huquqlarini yuridik himoya qilish."
+      "title": "Ixtirolar & Foydali Modellar",
+      "short": "Texnik ishlanmalar, texnologiyalar va sanoat namunalarini rasmiy patentlash.",
+      "full": "Ixtiro formulalarini tuzish, patent qidiruvi o'tkazish, ustuvorlik sanasini himoya qilish, foydali model va sanoat namunalari bo'yicha patent olish hamda xorijiy davlatlarda PCT tizimi orqali patentlash."
     },
-
     "copyright": {
-      "title": "Mualliflik huquqi",
-      "short": "Mualliflik huquqi obyektlarini ro‘yhatdan o‘tkazish va huquqiy himoya qilish.",
-      "full": "Mualliflik huquqlarini ro‘yxatdan o‘tkazish, shartnomalar tuzish va sudlarda vakillik qilish."
+      "title": "Mualliflik Huquqi & IT Kodlar",
+      "short": "Dasturiy ta'minot, IT kodlar, san'at asarlari va dizaynlarni ro‘yhatdan o‘tkazish.",
+      "full": "IT loyihalar, veb-saytlar manba kodi, ilovalar, elektron kurslar, kitoblar, musiqiy asarlar va fotosuratlarga mualliflik guvohnomasini rasmiylashtirish hamda mualliflik huquqi buzilganda sud orqali kompensatsiya undirish."
     },
-
     "domains": {
-      "title": "Kontrafakt hamda nohalol raqobatga qarashi kurashish",
-      "short": "Soxta va kontrafakt tovarlarni aniqlash, yo‘q qilish va kompensatsiya undirish",
-      "full": "Siznikiga o‘xshash yoki adashtirib yuborish darajasidagi bir xil tovarlarni ishlab chiqarishga qarshi kurashish."
+      "title": "Kontrafakt & Nohalol Raqobatga Qarshi Kurash",
+      "short": "Bozordan soxta tovarlarni musodara qilish, noqonuniy nusxalarni yo'qotish va zararni qoplash.",
+      "full": "Sizning brendingiz ostida noqonuniy ishlab chiqarilayotgan yoki sotilayotgan kontrafakt mahsulotlarni aniqlash, huquqni muhofaza qiluvchi organlar bilan reydlar o'tkazish va moddiy zararlarni 100% undirib berish."
     },
-
     "rights": {
-      "title": "Sudlarda himoya qilish",
-      "short": "Shartnomalarni ishlab chiqish, ekspertizadan o‘tkazish hamda sudlarda vakillik qilish.",
-      "full": "Intellektual mulkka oid ishlarda shartnomalar tayyorlash, sudlarda vakillik, mediatorlik vazifasini bajarish xizmatlari mavjud."
+      "title": "Sudlarda Himoya & Arbitraj",
+      "short": "Intellektual mulk nizolarida advokatlik himoyasi va zararlarni undirish.",
+      "full": "Iqtisodiy va fuqarolik sudlarida, Monopoliyaga qarshi kurashish qo'mitasida hamda Apellyatsiya kengashida professional advokatlik vakilligi. Brend o'g'irlanishi va huquqbuzarlik bo'yicha yutib berish."
     },
-
     "consulting": {
-      "title": "Intellektual mulk obyektlarini bojxona reestriga kiritish",
-      "short": "Soxta va kontrafakt tovarlarni xorijdan kirib kelishini oldini olish",
-      "full": "Soxta va kontrafakt tovarlarni xorijdan kirib kelishini oldini olish bo‘yicha bojxona bilan hamkorlikda choralar ko‘rish."
+      "title": "Bojxona Intellektual Mulk Reestri",
+      "short": "Kontrafakt tovarlarning chegaradan kirib kelishi va chiqishini to'xtatish.",
+      "full": "Tovar belgilarini Davlat Bojxona qo'mitasining maxsus intellektual mulk reestriga kiritish orqali xorijdan kirib kelayotgan har qanday soxta mahsulotni chegarada avtomatik to'xtatish va musodara qilish."
+    },
+    "international": {
+      "title": "Xalqaro Patentlash (Madrid Tizimi)",
+      "short": "AQSH, Yevropa Ittifoqi, Xitoy, Rossiya, MDH va BAAda yagona ariza orqali brendni himoya qilish.",
+      "full": "Madrid bitimi va protokoli asosida 130 dan ortiq davlatda tovar belgilarini ro'yxatdan o'tkazish. Xorijiy bozorlarga eksport qiluvchi ishlab chiqaruvchilar uchun global huquqiy xavfsizlik."
+    },
+    "franchise": {
+      "title": "Franchayzing & Litsenziya Shartnomalari",
+      "short": "Brendni ijaraga berish, franchayzing paketlari va huquqlarni boshqalarga o'tkazish.",
+      "full": "Franchayzing shartnomalari (Kompleks tadbirkorlik litsenziyasi), tovar belgisidan foydalanish bo'yicha litsenziya shartnomalari hamda brendni boshqa shaxsga to'liq sotish (boshqaga o'tkazish) shartnomalarini tuzish va Adliya vazirligida davlat ro'yxatidan o'tkazish."
     }
   },
   "common": {
     "showMore": "Ko‘proq ko‘rsatish",
-    "hide": "Yopish"
+    "hide": "Yopish",
+    "readMore": "Batafsil ma'lumot",
+    "contactExpert": "Patent Vakili Bilan Bog'lanish"
   },
   "team": {
-    "title": "Bizning jamoa",
+    "title": "Bizning Jamoa & Mutaxassislar",
+    "subtitle": "Intellektual mulk sohasida ilmiy darajaga va 1000+ brendlar himoyasi bo'yicha amaliy tajribaga ega huquqshunoslar",
     "members": {
       "yomi": {
         "name": "Turdialiyev Muhammad Ali",
-        "role": "Boshqaruvchi sherik, Patent vakili, Advokat, Mediator, PhD",
-        "info": ".Xalqaro xususiy huquq sohasida yetakchi mutaxxasis, Xalqaro va milliy darajada patent vakili. 1000+ (Evropa Ittifoqi, MDH, AQSH va Afrika davlatlari) brendlarning O‘zbekistondagi patent vakili. 5+ yillik yuridik tajribaga ega huquqshunos."
+        "role": "Boshqaruvchi Sherik, Rasmiy Patent Vakili, Advokat, Mediator, PhD",
+        "info": "Xalqaro xususiy huquq bo'yicha PhD ilmiy darajasiga ega, Adliya vazirligida ro'yxatdan o'tgan patent vakili. 1000+ (Yevropa Ittifoqi, MDH, AQSH, Xitoy va Afrika davlatlari) brendlarning O‘zbekistondagi rasmiy vakili. Sudlarda intellektual mulk nizolari bo'yicha ko'p yillik amaliyotchi advokat."
       },
       "timothee": {
         "name": "Jo‘rayev Muhammadiso Yahyo o‘g‘li",
-        "role": "Dasturiy ta’minot, Assistant",
-        "info": "Zamonaviy dasturiy ta’minot va raqamli yechimlar ishlab chiqish bo‘yicha mutaxassis. Yuridik platformalar, veb-ilovalar va biznes jarayonlarini avtomatlashtirishda katta tajribaga ega."
+        "role": "Dasturiy Ta’minot & LegalTech Arxitektori, Assistant",
+        "info": "Zamonaviy LegalTech, intellektual mulk reyestrlari va davlat bojlari hisob-kitob algoritmlari bo'yicha mutaxassis. Yuridik platformalar va avtomatlashtirish tizimlari arxitektori."
+      },
+      "azizxoja": {
+        "name": "Mamirxodjayev Azizxoʻja",
+        "role": "Yuridik Jarayonlar & Hujjatlashtirish Bo'yicha Bosh Yurist",
+        "info": "Tovar belgilari va patent arizalarini ekspertizaga tayyorlash, apellyatsiya kengashiga e'tirozlar shakllantirish va mijozlar bilan tezkor hamkorlik bo'yicha yetakchi mutaxassis."
       }
     },
     "features": {
       "fast": {
-        "title": "Tezkor bajarish",
-        "text": "Vazifalarni tez va kechikishsiz bajaramiz."
+        "title": "1 Kunda Talabnoma Topshirish",
+        "text": "Ustuvorlik sanasini darhol qo'lga kiritish uchun arizalarni 24 soat ichida topshiramiz."
       },
       "trusted": {
-        "title": "Ishonchli jamoa",
-        "text": "Tajribali va ishonchli mutaxassislar."
+        "title": "PhD & Rasmiy Vakolat",
+        "text": "Adliya vazirligi litsenziyasiga ega patent vakili tomonidan to'liq yuridik javobgarlik."
       },
       "secure": {
-        "title": "Xavfsiz va ishonchli",
-        "text": "Ma’lumotlaringiz doimo himoyada."
+        "title": "100% Ma'lumotlar Maxfiyligi",
+        "text": "G'oyalaringiz, tijorat sirlaringiz va hujjatlaringiz qat'iy NDA bilan himoyalangan."
       },
       "performance": {
-        "title": "Yuqori samaradorlik",
-        "text": "Natija va sifatga yo‘naltirilgan ish."
+        "title": "99.4% Muvaffaqiyat Kafolati",
+        "text": "Rad etilish xavfini dastlabki qidiruv bosqichidayoq bartaraf etamiz."
       }
     }
   },
   "portfolio": {
-    "title": "Bizning ishlar",
-    "subtitle": "Aniqlik va zamonaviy texnologiyalar asosida bajarilgan loyihalar.",
+    "title": "Himoyalangan Loyihalar & Yangiliklar",
+    "subtitle": "Kompaniyamiz muvaffaqiyatli himoya qilgan brendlar va intellektual mulk sohasidagi yutuqlar.",
     "date": "{{date}}",
     "items": {
       "digitalBridge": {
-        "title": "Legalmax Digital Bridge 2025 innovatsiya markazida"
+        "title": "LegalTech Digital Bridge 2025 innovatsiya markazida taqdimot"
       },
       "roundTable": {
-        "title": "Brendlarni himoya qilsih bo‘yicha xalqaro davra suhbati"
+        "title": "Xalqaro brendlarni kontrafaktdan himoya qilish bo'yicha davra suhbati"
       },
       "altPatent": {
-        "title": "ALT rasmiy ravishda patentlangan ixtiroga aylandi"
+        "title": "ALT brendi rasmiy ravishda patentlangan ixtiro maqomini oldi"
       },
-      "findSalt": { "title": "Find Salt — brendlarni ro‘yxatdan o‘tkazish" },
-      "training": { "title": "Legalmax korporativ treningi" },
-      "conference": { "title": "Legalmax ilmiy-amaliy konferensiyasi" }
+      "findSalt": { "title": "Find Salt brendining to'liq intellektual mulk himoyasi" },
+      "training": { "title": "Kompaniyalar uchun intellektual mulk muhofazasi treningi" },
+      "conference": { "title": "Xalqaro patent vakillari forumi va ilmiy konferensiya" }
     },
     "stats": {
-      "projects": "Yakunlangan loyihalar",
-      "experience": "Yillik tajriba",
-      "clients": "Xalqaro mijozlar"
+      "projects": "Muvaffaqiyatli Loyihalar",
+      "experience": "Yillik Tajriba",
+      "clients": "Xalqaro Mijozlar"
     }
   },
-  "common1": {
-    "showMore": "Ko‘proq ko‘rsatish",
-    "hide": "Yopish"
-  },
   "reviews": {
-    "title": "Mijozlar fikrlari",
-    "subtitle": "Hamkorlarimiz va mijozlarimiz biz haqimizda nima deydi.",
+    "title": "Mijozlarimiz va Hamkorlarimiz Fikrlari",
+    "subtitle": "PatentLex professionalligini tanlagan xalqaro va mahalliy biznes yetakchilari bahosi:",
     "items": {
       "review1": {
-        "text": "Jamoa yuqori professionalizmni namoyish etdi. Loyiha tez va sifatli amalga oshirildi.",
-        "name": "Mariya Ivanova",
-        "role": "CEO — LUXE Brand"
+        "text": "PatentLex jamoasi butun jarayonni o‘z zimmalariga olishdi. Ular bizning barcha brendlarimizning O'zbekistondagi eng ishonchli patent vakilidir.",
+        "name": "Manuel Eladio Chavvaria",
+        "role": "Direktor — FANALBA S.A. GROUP (Ecuador)"
       },
       "review2": {
-        "text": "Bir yildan beri hamkorlik qilamiz. Tafsilotlarga ajoyib e’tibor va mukammal servis.",
-        "name": "Aleksey Trofimov",
-        "role": "Tadbirkor"
+        "text": "Jamoa har doim yuqori professionallikni namoyish etadi. Huquqiy himoyani tez va sifatli amalga oshirishdi. Mualliflik huquqi himoyamiz ishonchli qo‘llarda!",
+        "name": "Jahongir Bafoyev",
+        "role": "Bosh direktor — Bukhara Books Print"
       },
       "review3": {
-        "text": "Ular butun jarayonni o‘z zimmalariga olishdi. Har oy o‘nlab soatlarni tejayapmiz.",
-        "name": "Olga Sokolova",
-        "role": "COO — Nova Group"
+        "text": "Sanoat namunasi va brendlarimiz himoyasi bo‘yicha uzoq yillardan beri hamkorlik qilamiz. Loyihalarimiz har doim 100% muvaffaqiyatli yakunlangan.",
+        "name": "EUROPLEKS XK jamoasi",
+        "role": "ECOBaget brendi asoschisi"
+      },
+      "review4": {
+        "text": "Ushbu jamoa bilan bir nechta yirik loyihalarni muvaffaqiyatli amalga oshirdik. O‘z ishining ustalari va intellektual mulk sohasining haqiqiy egalari.",
+        "name": "Akmal Aslonov",
+        "role": "Tadbirkor va Investor"
       }
     }
   },
-   "contact": {
-    "title": "Biz sizga yordam bera olamiz",
+  "contact": {
+    "title": "Brendingizni Himoya Qilishni Bugunoq Boshlang",
+    "subtitle": "Patent vakilidan bepul konsultatsiya oling va g'oyangizni qonuniy monopoliyaga aylantiring",
     "city": "Toshkent, O‘zbekiston",
-    "workdays": "Du – Ju: 9:00 – 18:00",
-    "weekend": "Sh – Ya: dam olish",
-    "formTitle": "Bepul yuridik maslahat",
-    "name": "Ism",
-    "email": "Email",
-    "message": "Xabar",
-    "send": "Yuborish",
+    "workdays": "Dushanba – Juma: 9:00 – 18:00 (Onlayn arizalar 24/7)",
+    "weekend": "Shanba – Yakshanba: Navbatchi ekspert qabuli",
+    "formTitle": "Bepul Yuridik Maslahat Olish",
+    "name": "To'liq Ismingiz",
+    "email": "Elektron Pochta",
+    "message": "Brendingiz yoki loyihangiz haqida qisqacha",
+    "send": "Arizani Yuborish",
     "sending": "Yuborilmoqda...",
-    "success": "Xabar muvaffaqiyatli yuborildi ✓",
-    "error": "Yuborishda xatolik yuz berdi",
-    "policy": "Yuborish tugmasini bosish orqali shaxsiy ma’lumotlaringizni qayta ishlashga rozilik bildirasiz."
+    "success": "Arizangiz muvaffaqiyatli qabul qilindi! Patent vakili 15 daqiqada siz bilan bog'lanadi ✓",
+    "error": "Xatolik yuz berdi. Iltimos, to'g'ridan-to'g'ri telefon orqali bog'laning.",
+    "policy": "Yuborish tugmasini bosish orqali shaxsiy ma’lumotlaringizni qayta ishlashga va maxfiylik siyosatiga rozilik bildirasiz.",
+    "phoneLabel": "Telefon Raqamingiz",
+    "emailLabel": "Elektron Pochta",
+    "addressLabel": "Ofis Manzili",
+    "hoursLabel": "Ish Tartibi"
   },
-   "footer": {
-    "brand": "Legal Time",
-    "description": "Biz jismoniy va yuridik shaxslarga professional huquqiy xizmatlar ko‘rsatamiz.",
-    "rights": "Barcha huquqlar himoyalangan",
-    "navigation": "Navigatsiya",
-    "contact": "Bog‘lanish",
-    "location": "Toshkent, O‘zbekiston",
-    "bottom": "Professional yuridik xizmatlar — ishonch va sifat"
+  "footer": {
+    "brand": "PatentLex",
+    "description": "O'zbekiston Respublikasi Adliya vazirligi ro'yxatidan o'tgan Rasmiy Patent Vakili va Advokatlik Agentligi. Tovar belgilari, patentlar, mualliflik huquqlari va bojxona intellektual mulk himoyasi.",
+    "rights": "Barcha huquqlar himoyalangan. PatentLex IP Law Firm © 2026",
+    "navigation": "Asosiy Bo'limlar",
+    "servicesTitle": "IP Xizmatlar",
+    "contact": "Bog‘lanish & Manzil",
+    "location": "Toshkent sh., Shayxontohur t., Alisher Navoiy ko‘chasi, 2-uy (Orda maydoni bekati)",
+    "bottom": "Professional Patent Advokatlik Xizmati — 100% Rasmiy Huquqiy Kafolat",
+    "legalTitle": "Huquqiy Ma'lumotlar",
+    "privacyPolicy": "Maxfiylik Siyosati",
+    "termsOfService": "Foydalanish Shartlari",
+    "cookiePolicy": "Cookie Siyosati"
+  },
+  "calcPage": {
+    "eyebrow": "PatentLex State Fee Engine · 100% Aniq Hisoblash",
+    "titlePart1": "O‘zbekiston Respublikasi Davlat Bojlarini",
+    "titlePart2": "1 Soniyada To‘g‘ri Hisoblang",
+    "description": "Adliya vazirligi qonunchiligi, Bazaviy hisoblash miqdori (BHM) va MKTU sinflari asosida tovar belgilari va patentlar bo'yicha to'liq davlat to'lovlarini aniqlang.",
+    "demoTitle": "Jonli Boj Hisoblagich",
+    "demoSubtitle": "O'zingizga mos arizachi turini va sinflar sonini tanlang:",
+    "formHeader": "1. Arizachi Maqomi va Sinflarni Tanlang",
+    "applicantStatus": "Arizachi Maqomi (Shaxs Turi):",
+    "physicalPerson": "Jismoniy Shaxs / YTT (-50% Davlat Imtiyozi)",
+    "legalEntity": "Yuridik Shaxs (MCHJ, XK, AJ)",
+    "speedMode": "Ekspertiza Muddati:",
+    "standardSpeed": "Standart Rejim (6-7 oy)",
+    "fastSpeed": "⚡ Tezkor Ekspertiza (1 oy)",
+    "mktuClasses": "МКТУ Sinflari Soni:",
+    "standardFeeNote": "Rasmiy Bazaviy Hisoblash Miqdori (BHM) ko'rsatkichlari asosida real-vaqtda hisoblanadi.",
+    "reportDemoTitle": "Davlat Boji Hisoboti:",
+    "appFeeLabel": "1. Talabnoma topshirish boji:",
+    "regFeeLabel": "2. Guvohnoma berish boji:",
+    "totalAmountLabel": "Yakuniy Jami To'lov:",
+    "bhmInfo": "Amaldagi BHM: 412,000 so'm",
+    "sendCalcTelegram": "Hisobotni Telegramga Yuborish & Maslahat Olish",
+    "mktuTitle": "МКТУ Nimaligini Bilasizmi Va U Qanday Hisoblanadi?",
+    "mktuSubtitle": "MKTU CLASSIFICATION & GUIDE",
+    "mktuQ1": "1. МКТУ (Xalqaro Tasnif) Nima?",
+    "mktuA1": "МКТУ (Xalqaro Tovar va Xizmatlar Tasnifi) — bu brendingiz qaysi sohada (masalan: oziq-ovqat, IT, kiyim-kechak, yuridik xizmatlar) muhofaza qilinishini belgilaydigan 45 ta xalqaro sinf tizimidir.",
+    "mktuQ2": "2. Sinflar Soni Bojga Qanday Ta'sir Qiladi?",
+    "mktuA2": "Dastlabki 1-sinf uchun talabnoma boji standart stavkada, keyingi har bir qo'shimcha sinf uchun esa qo'shimcha stavka miqdorida davlat boji oshib boradi.",
+    "mktuQ3": "3. Professional Veb-Litsenziya",
+    "mktuA3": "Pullik veb-litsenziyada barcha 45 ta МКТУ sinflarini avtomatik qidirish, Yuridik shaxs hamda 1 oylik Tezkor ekspertiza bojlari, QQS (12%), БҲМ ko'rsatkichlari va Telegram postlari uchun tayyor izohli hisobotlarni shakllantirasiz."
   }
 }

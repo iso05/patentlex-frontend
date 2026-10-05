@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +23,37 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# GitHub publication hygiene
+
+node_modules/
+.next/
+out/
+dist/
+dist-electron/
+dist-installer/
+dist-keygen/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.zip
+*.tar.gz
+*.tsbuildinfo
+*.log
+Thumbs.db
+.DS_Store
